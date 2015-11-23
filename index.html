@@ -1,32 +1,97 @@
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-    <script src="js/script.js" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/css/svwp_style.css" type="text/css" media="screen" /><!--стиль для экрана320/480-->
+	<link rel="stylesheet" href="styles/css/screen480end320.css" type="text/css" media="screen"/><!--стиль для экрана 480/320-->
+	<link rel="stylesheet" href="styles/css/screen600end800.css" type="text/css" media="screen"/><!--стиль для экрана 600/800-->
+	<link rel="stylesheet" href="styles/fonts/firasans.css" type="text/css" media="screen" />
 </head>
 <body>
-<!--Модальное окно реализованно за счет скрытия блоков свойством display (none block), переключение свойств pointer-events и target-->
-    <a href="#openModal">Модальное окно</a><!--ссылка на модальное окно-->
-   	    <div id="openModal" class="contentModal">
-	        <div>
-				<p>Закажите</p>
-				<i>консультацию</i>
-				<img>
-				<p>Ответ в течении 15 минут</p>
-				<p>____</p>
-				<form>
-					<p>Введите <i>Ваше имя</i> (необяз.):</p>
-					<input type="text" placeholder="Имя" name="fio">
-					<p>Введите <i>телефон:</i></p>
-					<input type="text" placeholder="Телефон" name="phone">
-					<p>Введите <i>e-mail</i> (необяз.):</p>
-					<input type="text" placeholder="E-mail" name="e-mail">
-					<p>Ваш <i>вопрос</i>(необяз.):</p>
-					<textarea placeholder="Введите коментарий" rows="5" ></textarea>
-					<a href="#" class="ButtonLink"><span>Заказать консультацию</span></a>
-				</form>
-			    <a href="#close" title="Закрыть" class="close">X</a>
-			</div>
+<div id="wrapper">
+    <!--header начало-->
+    <div id="header">
+	    <div id="logo_header">	 
+     	     <img src="styles/images/logo.png" alt="uLime">
+		</div>	
+		<a href="#" class="button_jungle">вход</a>
+	</div>
+	<!--header конец-->
+	<!--section-main начало-->
+	<div id="section-main">
+	    <ul>
+		    <li>цены</li>
+			<li>услуги</li>
+			<li>о сервисе</li>
+			<li><a href=""><i class="ico ico-basket"></i></a></li>
+		</ul>
+		<h2>Химчистка Юлайм— приедем, заберем,  отчистим, привезем!</h2>
+		<a href="#" class="button_jungle">сделать заказ</a>
+		<div class="section_decorate">
 		</div>
+	</div>
+	<!--section-main конец-->
+	
+	<!--content начало-->
+	<div id="content">
+		<a href="#">Простая стирка и глажка <i class="ico ico_right"></i></a>
+		<a href="#">Химчистка <i class="ico ico_right ico_right_margin"></i></a>
+		<div id="advantages">
+			<h3>наши <br/> преимущества</h3>
+			<i class="ico ico-hanger"></i>
+			<h4>все типы вещей</h4>
+			<p>Находим индивидуальный подход <br/> к любой ткани.</p>
+			<i class="ico ico-car"></i>
+			<h4>быстро и легко</h4>
+			<p>От вас—только заказ на сайте.<br/>От нас—забрать вещи, почистить<br/> и вернуть за 24 часа.</p>
+			<i class="ico ico-arm"></i>
+			<h4>гарантии качества</h4>
+			<p>Ваши вещи будут обработаны опытными технологами с применением с проверенных технологий.</p>
+		</div>
+		<div id="information_work">
+		    <h3>Как это работает</h3>
+			<i class="ico ico-order"></i>
+			<p>Вы делаете заказ  <br/> в два клика</p>
+			<div class="information_decorate">
+		    </div>
+			<i class="ico ico-transportation"></i>
+			<p>Мы приезжаем  <br/> к Вам, забираем  <br/> одежду, требующую  <br/>чистки, и отвозим  <br/>ее на фабрику</p>
+			<div class="information_decorate">
+		    </div>
+			<i class="ico ico-cleaning"></i>
+			<p>На фабрике  <br/>профессиональные  <br/>технологи чистят вещи</p>
+			<div class="information_decorate">
+		    </div>
+			<i class="ico ico-result"></i>
+			<p>Мы забираем чистые  <br/> вещи с фабрики  <br/>и провозим их <br/> к Вам домой</p>
+		</div>
+		<div id="services">
+		    <h3>услуги</h3>
+			<div id="ico_li">
+				<i class="ico ico-coat"></i> 
+				<i class="ico ico-dress"></i>
+				<i class="ico ico-polo"></i>
+				<i class="ico ico-costume"></i>
+				<i class="ico ico-accessory"></i>
+			</div>
+			<div id="text_li">
+            <ul>
+				<li>Химчистка верхней одежды</li>
+				<li>Химчистка вещей из деликатных тканей</li>
+				<li>Простая стирка и глажка</li>
+				<li>Cтирка и глажка рубашек и блузок</li>
+				<li>Химчистка аксессуаров</li>
+			</ul>
+			</div>
+		</div>	
+	</div>
+	<!--content конец-->
+	
+	<!--footer начало-->
+	<div id="footer">
+	    <p>uLime</p>
+		<p>+7 499-390-66-13</p>
+	</div>
+	<!--footer конец-->
+</div>
 </body>
 </html>

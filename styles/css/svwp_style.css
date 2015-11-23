@@ -1,0 +1,348 @@
+/*-----------------------общие стили начало----------------------*/
+@CHARSET "UTF-8";
+*{ 
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Fira Sans';
+}
+
+#wrapper{
+    max-width: 320px;
+	margin: 0 auto; border: 1px solid #000000;
+}
+
+a {
+    text-decoration: none;
+	color: #ffffff;
+}
+
+li {
+	list-style: none;
+}
+
+.button_jungle {
+  background-color: #0ca771;
+  border-radius: 0.4rem;
+}
+
+.ico {
+    display: inline-block;
+    background: url("../images/ico.png") no-repeat;
+}
+/*-----------------------общие стили конец----------------------*/
+/*header начало*/
+#header {
+       width: 100%;
+}
+   #logo_header {
+        width: 40%;
+		height: 10%;
+        display: inline-block;
+		vertical-align: middle;
+   }
+   
+	   #header  img {
+	        width: 100%;
+		    height: auto;  
+			margin: 0.3rem 0 0 0;
+	   }
+
+   #header a {
+      font-size: 1rem;
+	  padding: 0.2rem 1.8rem 0.2rem 1.8rem;
+	  text-transform: uppercase;
+	  margin: 0.3rem 0 0 5rem;
+   }
+
+/*header конец*/
+
+/*section-main начало*/
+#section-main {
+    background-image: url("../images/brend.jpg");
+    width: 100%;
+	height: 26.7rem;
+	text-align: center;
+}
+
+	#section-main ul {
+        background-color: rgba( 75, 75, 75, 0.5); 
+	}
+
+		#section-main ul:first-child{
+			padding: 0px 0px 0px 1rem;
+		}
+	
+	    #section-main i{
+            vertical-align: middle;
+			margin-left: 5rem;
+	    }
+	
+		#section-main li {
+			display: inline-block;
+			color: #ffffff;
+			font-size: 0.9rem;
+			padding: 0.5rem 0.5rem 0.5rem 0;
+		}
+	
+	
+		.ico-basket {
+				   width: 30px;
+				   height: 25px;
+				   background-position: -176px -162px;
+		}
+		
+		#section-main h2 {
+			font-size: 1.8rem;
+			font-style: normal;
+			margin: 3rem 0 4rem 0;
+		}
+		
+		#section-main h2+a{
+			padding: 0.3rem 2rem 0.3rem 2rem;
+			text-transform: uppercase;
+		}
+	.section_decorate:before {
+		  content: '';
+		  display: block;
+		  width: 46px;
+		  height: 46px;
+		  background-color: #c0c0c0;
+		  top: 50px;
+		  left: 50%;
+		  transform: translateX(295%) translateY(200%);
+		  border-radius: 100%;
+		  z-index: 2;
+		  background-image: url("../images/bottom_ico.png");
+		  background-position: center 64%;
+		  background-repeat: no-repeat;
+	}
+/*section-main конец*/
+
+/*content начало*/
+
+#content {
+    margin: 3rem 0 0 0;
+    text-align: center;
+}
+
+
+
+	#content a {
+	    margin: 0.1rem 0 0 0.7rem;
+		padding: 0.5rem 0 0 0.5rem;
+        display: block;
+		width: 18rem;
+		height: 1.7rem;
+		text-align: left;
+		background: #757575;
+		border-radius: 0.4rem;
+		font-size: 0.8rem;
+    }
+	
+	.ico_right {
+               width: 12px;
+               height: 19px;
+               background-position: -180px -263px;
+			   margin-left: 7rem;
+			   vertical-align: middle;
+        }
+	
+    .ico_right_margin {
+			   margin-left: 12.3rem;
+    }
+	
+	#advantages {
+	    text-align: center;
+		margin: 2rem 0 2rem 0;
+	}
+	
+	    #advantages  h3 {
+            color: #117B56;
+			font-size: 1.3rem;
+			text-transform: uppercase;
+			margin: 2rem 0 3rem 0;
+	    }
+		
+		#advantages  i {
+	    	margin: 0px 0 1.5rem 0;
+	    }
+		
+		.ico-hanger {
+               width: 95px;
+               height: 55px;
+               background-position: -10px -15px;
+        }
+		
+		.ico-car {
+		       width: 95px;
+               height: 60px;
+               background-position: -5px -85px;
+		}
+		
+		.ico-arm {
+		       width: 95px;
+               height: 65px;
+               background-position: -10px -150px;
+		}
+		
+		#advantages  h4 {
+	    	font-size: 1.3rem;
+			margin: 0px 0 0.2rem 0;
+	    }
+		
+		#advantages  p {
+	    	margin: 0px 0 4.5rem 0;
+	    }
+/*content конец*/
+
+/*information_work конец*/
+	#information_work {
+		background: #117B56;
+		text-align: center;
+	}
+	
+	    #information_work  h3{
+	        color: #ffffff;
+			padding: 3rem 0 3rem 0;
+			font-size: 1.6rem;
+	    }
+		
+		#information_work  i{
+            margin: 0 0 0.8rem 0;
+	    }
+		
+		#information_work  p{
+            font-size: 0.9rem;
+			color: #fff;
+			margin: 0 0 3rem 0;
+	    }
+		
+		.information_decorate:before {
+		  content: '';
+		  display: block;
+		  width: 46px;
+		  height: 46px;
+		  background-color: #117B56;
+		  top: 50px;
+		  left: 50%;
+		  transform: translateX(270%) translateY(0%);
+		  border-radius: 100%;
+		  border: 2px solid #17A372;
+		  z-index: 2;
+		  background-image: url("../images/bottom_ico.png");
+		  background-position: center 64%;
+		  background-repeat: no-repeat;
+		  margin: 0px 0 3rem 0;
+	    }
+		
+		.ico-order {
+			width: 168px;
+			height: 169px;
+			background-position: -0px -221px;
+		}
+		
+		.ico-transportation {
+			width: 168px;
+			height: 165px;
+			background-position: -0px -389px;
+		}
+		
+		.ico-cleaning {
+			width: 168px;
+			height: 165px;
+			background-position: -0px -556px;
+		}
+		
+		.ico-result {
+			width: 168px;
+			height: 165px;
+			background-position: -0px -723px;
+		}
+	
+    #services{
+	    text-align: center;
+		vertical-align: middle;
+	}
+	
+	    #services h3 {
+			color: #117B56;
+			margin: 0 0 2.5rem 0;
+			font-style: bold;
+			text-transform: uppercase;
+	    }
+		
+		#ico_li {
+		    display: inline-block;
+		}
+		
+			#services i{
+				display: block; 
+				/*border: 1px solid #000;*/
+				margin: 0 0 2rem 0;
+			}
+	
+			.ico-coat {
+				width: 55px;
+				height: 70px;
+				background-position: -107px -5px;
+			}
+			
+			.ico-dress {
+				width: 55px;
+				height: 70px;
+				background-position: -170px -5px;
+			}
+			
+			.ico-polo {
+				width: 55px;
+				height: 70px;
+				background-position: -110px -145px;
+			}
+			
+			.ico-costume {
+				width: 55px;
+				height: 70px;
+				background-position: -107px -85px;
+			}
+			
+			.ico-accessory {
+				width: 55px;
+				height: 70px;
+				background-position: -167px -88px;
+			}
+		
+        #text_li {
+		    width: 8rem; 
+			display: inline-block;
+			vertical-align: top;
+			text-align: left;
+			margin: 0 0 0 1rem;
+		}
+		
+		#text_li  li {
+		    height: 3.1rem;
+			font-size: 0.9rem;
+			padding: 1.4rem 0 1.5rem 0;
+		}
+/*information_work начало*/
+
+/*footer начало*/
+#footer {
+    background: #353535;
+	color: #ffffff;
+	text-align: left;
+}
+
+    #footer p {
+	    display: inline-block;
+		font-size: 1.3rem;
+		padding: 0.7rem 0 0 0.7rem;
+	}
+	
+	#footer p +p{
+	    margin: 0 0 0 4.5rem;
+	}
+/*footer конец*/

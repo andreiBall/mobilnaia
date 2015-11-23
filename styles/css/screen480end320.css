@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+/*--------------------------------------------------------------стиль 480*320 начало---------------------------------------------------------------*/
+@media screen and (max-height: 480px) {
+
+html { font-size: 125%; }   /* размер шрифта корневого элемента = 10px */
+
+#wrapper{
+   max-width: 480px;
+}
+/*header начало*/
+       
+	   #header {
+           height: 100px;
+       }
+	   
+		   #header a {
+			  margin: 0 0 0 7rem;
+		   }
+		   
+		#logo_header {
+    		height: 90%;
+        }
+/*header конец*/
+
+/*section-main начало*/
+	#section-main {
+		height: 21.8rem;
+		background-position: center;
+	}
+	
+	    #section-main ul:first-child{
+			padding: 0px 0px 0px 0.01rem;
+		}
+	
+	    #section-main i{
+            vertical-align: middle;
+			margin-left: 10rem;
+	    }
+	
+		.section_decorate:before {
+		  transform: translateX(470%) translateY(60%);
+	}
+	
+	
+/*section-main конец*/
+
+/*content начало*/
+	#content a {
+		width: 21.5rem;
+    }
+	
+	.ico_right {
+	    margin-left: 11rem;
+    }
+	
+    .ico_right_margin {
+			   margin-left: 16.3rem;
+    }
+/*content конец*/
+
+/*information_work конец*/
+		.information_decorate:before {
+		  transform: translateX(420%) translateY(0%);
+	    }
+/*information_work начало*/
+
+/*footer начало*/
+
+#footer p +p{
+    margin: 0 0 0 8rem;
+}
+/*footer конец*/
+}
+/*--------------------------------------------------------------стиль 480*320 конец---------------------------------------------------------------*/	
+ 
